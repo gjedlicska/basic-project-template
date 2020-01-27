@@ -16,6 +16,7 @@ def _convert_completion_result_to_str(completion: subprocess.CompletedProcess) -
 
 
 def ensure_python_3():
+
     completion = subprocess.run(["python", "--version"], capture_output=True)
     python_version = _convert_completion_result_to_str(completion)
 

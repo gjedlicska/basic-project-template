@@ -16,7 +16,7 @@ def init_git_repo():
 
 def init_project_venv():
     print("Poetry init")
-    subprocess.run(["poetry", "install"])
+    subprocess.run(["poetry", "install", "--no-root"])
 
 
 try:
