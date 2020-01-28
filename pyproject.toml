@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "basic-project-template"
 version = "0.1.0"
-description = "A basic Python project template with batteries included, like: poetry, tox, black, flake8, pre-commit"
-authors = []
-license = ""
+description = "A basic Python project template with a preconfigured toolchain."
+authors = ["Gergő Jedlicska <gergo@jedlicska.com>"]
+license = "MIT"
 
 
 [tool.poetry.dependencies]
