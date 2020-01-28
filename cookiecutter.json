@@ -1,6 +1,9 @@
 {
+    "author": "Your Name <your@adress.com>",
     "project_name": "My New Project",
     "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
     "directory_name":"{{ cookiecutter.project_slug | replace('-', '_') }}",
-    "project_description": "Short summary of the project"
+    "project_description": "Short summary of the project",
+    "sphinx_source_dir": "source",
+    "sphinx_build_dir": "build"
 }
